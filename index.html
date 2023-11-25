@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit at Home</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        article {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            flex: 0.3;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .search-form {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 47%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+            align-items: center;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fit at Home</h1>
+    </header>
+     <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="Alimentación.html">Alimentación</a> |
+        <a href="Rutina.html">Rutina</a> |
+        <a href="Descanso.html">Descanso</a>
+    </nav>
+    <article>
+         <h2>¿Cual es el proposito de esta página?</h2>
+         <li>Promover la salud y el bienestar: Proporcionar rutinas de ejercicios en casa puede ayudar a fomentar un estilo de vida activo y saludable. Esto es especialmente valioso para aquellos que prefieren o necesitan hacer ejercicio en casa en lugar de ir a un gimnasio.</li>
+
+         <li>Accesibilidad: Ofrecer rutinas de ejercicios en casa hace que el ejercicio sea más accesible para personas que pueden tener limitaciones de tiempo, movilidad o recursos. Esto puede incluir a aquellos que tienen horarios ocupados, no pueden asistir a un gimnasio o prefieren la comodidad de hacer ejercicio en casa.</li>
+         Programas de entrenamiento: Secuencias planificadas de ejercicios que abordan objetivos a largo plazo. Estos programas pueden incluir diferentes niveles de dificultad y progresión para adaptarse a diversas necesidades y niveles de condición física.
+     </article>
+
+
+         
+    <article>
+         <h2>¿Qué encontraras en esta pagina?</h2>
+         <li>Consejos de nutrición: Información sobre una dieta equilibrada y sugerencias para apoyar los objetivos de fitness. Esto podría incluir recetas saludables, recomendaciones de alimentos y pautas nutricionales generales.</li>
+     
+
+<li>Artículos y blogs: Contenido escrito sobre temas relacionados con el fitness, la salud y el bienestar. Puedes encontrar información sobre tendencias en el mundo del ejercicio, consejos para mantener la motivación y artículos educativos sobre anatomía, fisiología y otros temas relevantes.</li>
+
+<li>Calendarios de entrenamiento: Programas de ejercicios organizados en un formato de calendario, lo que facilita la planificación y el seguimiento de las rutinas a lo largo del tiempo.</li>
+
+<li>Foros o comunidades: Espacios interactivos donde los usuarios pueden compartir experiencias, hacer preguntas, intercambiar consejos y motivarse mutuamente. Esto crea un sentido de comunidad en línea alrededor del fitness.</li>
+
+<li>Aplicaciones asociadas: Algunas páginas pueden tener aplicaciones complementarias que ofrecen características adicionales, como seguimiento de progreso, recordatorios de ejercicios y funciones sociales para conectarse con otros usuarios.</li>
+</article>
+        <img src="https://static.wixstatic.com/media/5f0fe4_e9d505c8265a4df4869487677bcce666~mv2.jpg/v1/fill/w_640,h_452,al_c,lg_1,q_80,enc_auto/5f0fe4_e9d505c8265a4df4869487677bcce666~mv2.jpg"alt="señor calistenico" width="300" height="300" class="imagen-arriba">
+        <img src="https://i.blogs.es/b742e7/original/1366_2000.jpeg" alt="señor calistenico" width="300" height="300" class="imagen-abajo">
+
+    <section>
+        <article id="alimentacion">
+            <h2>Alimentación</h2>
+        </article>
+
+        <article id="rutina">
+            <h2>Rutina</h2>
+        </article>
+
+        <article id="descanso">
+            <h2>Descanso</h2>
+        </article>
+    </section>
+    
+    <aside>
+<section>
+     <div class="container">
+        <div class="form-container">
+            <h2>Guardar datos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                    <option value="Selecciona">Selecciona un país</option>
+                    <option value="Perú">Perú</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="aside-container">
+            <div class="google-search">
+                <h2>Buscador de Google</h2>
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="Buscar en Google">
+                    <input type="submit" value="Buscar">
+                </form>
+            </div>
+            <div class="youtube-video">
+                <h2>Video de YouTube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8I17t1Sl9C4?si=7RM7MtFIB8jeskAK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div> 
+    </section>
+
+</aside>
+    <footer>
+        &copy; 2023 Fit at Home
+    </footer>
+</body>
+</html>
